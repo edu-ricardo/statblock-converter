@@ -1,0 +1,82 @@
+<div class="stat-block">
+<div class="monster-header">Skeleton</div>
+<p>Medium Undead, Lawful Evil</p>
+<p><strong>AC</strong> 13 <strong>Initiative</strong> +3 (13)</p>
+<p><strong>HP</strong> 13 (2d8 + 4)</p>
+<p><strong>Speed</strong> 30 ft.</p>
+<div class="stats">
+<div class="table-overflow-wrapper">
+<table class="physical abilities-saves">
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>Mod</th>
+<th>Save</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>STR</th>
+<td>10</td>
+<td>+0</td>
+<td>+0</td>
+</tr>
+<tr>
+<th>DEX</th>
+<td>16</td>
+<td>+3</td>
+<td>+3</td>
+</tr>
+<tr>
+<th>CON</th>
+<td>15</td>
+<td>+2</td>
+<td>+2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-overflow-wrapper">
+<table class="mental abilities-saves">
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>Mod</th>
+<th>Save</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>INT</th>
+<td>6</td>
+<td>-2</td>
+<td>-2</td>
+</tr>
+<tr>
+<th>WIS</th>
+<td>8</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr>
+<th>CHA</th>
+<td>5</td>
+<td>-3</td>
+<td>-3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><strong>Vulnerabilities</strong> Bludgeoning</p>
+<p><strong>Immunities</strong> Poison; Exhaustion, Poisoned</p>
+<p><strong>Gear</strong> Shortbow, Shortsword</p>
+<p><strong>Senses&nbsp;</strong>Darkvision 60 ft., Passive Perception 9</p>
+<p><strong>Languages</strong> Understands the languages it knew in life but can&rsquo;t speak</p>
+<p><strong>CR</strong> 1/4 (XP 50; PB +2)</p>
+<p class="monster-header">Actions</p>
+<p><strong><em>Shortsword.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 6 (1d6 + 3) Piercing damage.</p>
+<p><strong><em>Shortbow.</em></strong> <em>Ranged Attack Roll:</em> +5, range 80/320 ft. <em>Hit:</em> 6 (1d6 + 3) Piercing damage.</p>
+</div>

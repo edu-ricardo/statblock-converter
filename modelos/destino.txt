@@ -1,0 +1,82 @@
+<div class="stat-block">
+<div class="monster-header">Guerreiro Goblin</div>
+<p>Small fey, chaotic neutral</p>
+<p><strong>AC</strong> <strong class="custom-ac custom-stat">15</strong> (fey trickery) <strong><strong>Initiative</strong> <strong class="custom-initiative custom-stat">+2</strong></strong></p>
+<p><strong>HP</strong> <strong class="custom-avghp custom-stat">7</strong> (<strong class="custom-hp-roll custom-stat">2d6+0</strong>)</p>
+<p><strong>Speed</strong> walk 30 ft.</p>
+<div class="stats">
+<div class="table-overflow-wrapper">
+<table class="physical abilities-saves">
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>Mod</th>
+<th>Save</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>STR</th>
+<td>8</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr>
+<th>DEX</th>
+<td>14</td>
+<td>+2</td>
+<td>+2</td>
+</tr>
+<tr>
+<th>CON</th>
+<td>10</td>
+<td>+0</td>
+<td>+0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-overflow-wrapper">
+<table class="physical abilities-saves">
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>Mod</th>
+<th>Save</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>INT</th>
+<td>10</td>
+<td>+0</td>
+<td>+0</td>
+</tr>
+<tr>
+<th>WIS</th>
+<td>8</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr>
+<th>CHA</th>
+<td>8</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><strong>Skills</strong> Stealth +6</p>
+<p><strong>Senses&nbsp;</strong>darkvision 60 ft., passive Perception null</p>
+<p><strong>Languages</strong> Common, Goblin</p>
+<p><strong>CR</strong> <strong class="custom-challenge-rating custom-stat">1/4</strong></p>
+<p><strong><em>Nimble Escape.</em></strong> The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</p>
+<p><strong><em>Cruel.</em></strong> Se atingir um advers&aacute;rio com vantagem adiciona 2(1d4) ao dano</p>
+<p class="monster-header">Actions</p>
+<p><strong><em>Scimitar.</em></strong> Melee Attack Roll: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.</p>
+<p><strong><em>Shortbow.</em></strong> Ranged Attack Roll: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.</p>
+</div>
