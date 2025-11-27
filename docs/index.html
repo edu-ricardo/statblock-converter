@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D&D Statblock Helper</title>
+    <script type="module" crossorigin src="/assets/index-BpNTwboL.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B02aZ4DA.css">
+  </head>
+  <body>
+    <div id="app">
+      <h1>D&D Statblock Helper (2024 Rules)</h1>
+
+      <div class="tabs">
+        <button id="tab-converter" class="tab-button active">Converter de JSON</button>
+        <button id="tab-creator" class="tab-button">Criar Novo</button>
+      </div>
+
+      <!-- Converter View -->
+      <div id="converter-view" class="view">
+        <p>Cole o JSON do statblock (ex: Improved Initiative) na caixa abaixo e clique em converter.</p>
+        <div class="container">
+          <div class="column">
+            <h2>Entrada (JSON)</h2>
+            <textarea id="json-input" rows="30" cols="60"></textarea>
+          </div>
+          <div class="column">
+            <h2>Saída (HTML para Above VTT)</h2>
+            <textarea id="html-output-converter" class="output-area" rows="30" cols="60" readonly></textarea>
+          </div>
+        </div>
+        <button id="convert-btn" type="button">Converter</button>
+      </div>
+
+      <!-- Creator View -->
+      <div id="creator-view" class="view hidden">
+        <p>Preencha os campos abaixo para criar o statblock do monstro.</p>
+        <div class="form-container">
+            <div class="form-section">
+              <label for="name">Nome:</label><input type="text" id="name" name="name">
+              <label for="type">Tipo (ex: Medium Undead, Lawful Evil):</label><input type="text" id="type" name="type">
+              <label for="ac">AC:</label><input type="number" id="ac" name="ac" value="10"><label for="ac_notes">Notas AC:</label><input type="text" id="ac_notes" name="ac_notes">
+              <label for="hp">HP:</label><input type="number" id="hp" name="hp" value="10"><label for="hp_notes">Notas HP (ex: 2d8+2):</label><input type="text" id="hp_notes" name="hp_notes">
+              <label for="speed">Velocidade (ex: 30 ft., fly 60 ft.):</label><input type="text" id="speed" name="speed" value="30 ft.">
+            </div>
+
+            <div class="form-section abilities-grid">
+              <span>Habilidade</span><span>Valor</span>
+              <label for="str">STR</label><input type="number" id="str" name="str" value="10">
+              <label for="dex">DEX</label><input type="number" id="dex" name="dex" value="10">
+              <label for="con">CON</label><input type="number" id="con" name="con" value="10">
+              <label for="int">INT</label><input type="number" id="int" name="int" value="10">
+              <label for="wis">WIS</label><input type="number" id="wis" name="wis" value="10">
+              <label for="cha">CHA</label><input type="number" id="cha" name="cha" value="10">
+            </div>
+
+            <div class="form-section">
+                <label for="senses">Sentidos (ex: Darkvision 60 ft.):</label><input type="text" id="senses" name="senses" value="Passive Perception 10">
+                <label for="languages">Idiomas:</label><input type="text" id="languages" name="languages" value="Common">
+                <label for="challenge">Challenge (ex: 1/4):</label><input type="text" id="challenge" name="challenge" value="1/4">
+            </div>
+
+            <div class="form-section dynamic-section" id="traits-section">
+              <h3>Traços</h3>
+              <div id="traits-container"></div>
+              <button type="button" id="add-trait-btn">Adicionar Traço</button>
+            </div>
+
+            <div class="form-section dynamic-section" id="actions-section">
+              <h3>Ações</h3>
+              <div id="actions-container"></div>
+              <button type="button" id="add-action-btn">Adicionar Ação</button>
+            </div>
+        </div>
+        <button id="generate-btn" type="button">Gerar HTML</button>
+        <div class="output-container">
+            <h2>Saída (HTML para Above VTT)</h2>
+            <textarea id="html-output-creator" class="output-area" rows="30" cols="80" readonly></textarea>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
